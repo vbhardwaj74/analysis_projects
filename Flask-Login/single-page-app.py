@@ -270,7 +270,7 @@ def update_table(d1, d2):
     return dataTable, fig
 
 if __name__ == '__main__':
-    app.run_server(debug=True, port=8051)
+    app.run_server(debug=True)
 
 
 # SINGLE PAGE TEMPLATE
