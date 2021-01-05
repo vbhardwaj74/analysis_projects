@@ -3,7 +3,7 @@ from flask import Flask
 from flask.helpers import get_root_path
 from flask_login import login_required
 
-from config import BaseConfig
+#from config import BaseConfig
 
 
 def create_app():
