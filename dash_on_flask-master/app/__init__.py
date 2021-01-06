@@ -25,6 +25,8 @@ def register_dashapps(app):
     meta_viewport = {"name": "viewport", "content": "width=device-width, initial-scale=1, shrink-to-fit=no"}
 
     dashapp1 = dash.Dash(__name__,
+                         external_stylesheets=[
+        'https://codepen.io/chriddyp/pen/bWLwgP.css'],
                          server=app,
                          url_base_pathname='/dashboard/',
                          assets_folder=get_root_path(__name__) + '/dashboard/assets/',
