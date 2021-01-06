@@ -152,10 +152,10 @@ df2 = mobile_df
 df3 = desktop_df
 
 
-app = dash.Dash(__name__, external_stylesheets=[
+#app = dash.Dash(__name__, external_stylesheets=[
         'https://codepen.io/chriddyp/pen/bWLwgP.css'])
 
-
+'''
 app.layout = html.Div([
     dcc.Location(id='url', refresh=False),
     html.Div(id='page-content')
@@ -166,8 +166,8 @@ index_page = html.Div([
     html.Br(),
     #dcc.Link('Go to Page 2', href='/page-2'),
 ])
-
-app.layout = html.Div([
+'''
+layout = html.Div([
     html.Div([
         html.Label('mobile devices'),
         dcc.Dropdown(id='dropdown_d1', options=[{'label':x, 'value':x} for x in df2.sort_values('mobile_devices')['mobile_devices'].unique()], 
@@ -193,44 +193,45 @@ app.layout = html.Div([
 
 #app.layout = html.Div([dropdown, final_table, line_chart], className="row")
 
-@app.callback([
-    Output('final_table','children'),
-    Output('line_chart', 'figure')],
-    [Input('dropdown_d1', 'value'),
-     Input('dropdown_d2', 'value')])
-
-def update_table(d1, d2):
+def register_callbacks(dashapp):
+    @app.callback([
+        Output('final_table','children'),
+        Output('line_chart', 'figure')],
+        [Input('dropdown_d1', 'value'),
+         Input('dropdown_d2', 'value')])
     
-    if(d1 != None and d2 != None):
-        df_filtered = df2[df2["mobile_devices"].isin(d1) & df2["source"].isin(d2)]
+    def update_table(d1, d2):
         
-    elif d1 != None:
-        df_filtered = df2[df2["mobile_devices"].isin(d1)]
-        
-    elif d2 != None:
-        df_filtered = df2[df2["source"].isin(d2)]
-        
-    else:
-        df_filtered = df2
-        
-    dataTable = [dt.DataTable(
-            id='table', 
-            columns = [{"name": i, "id": i} for i in df_filtered.columns],
-            data=df_filtered.to_dict('records'),
-            page_action='none',
-            style_table={'height': '500px', 'overflowY': 'auto'}
-        )]
-        
-    #list_chosen_devices=df_filtered['mobile_devices'].unique().tolist()
-    #df_line = df2[df2['mobile_devices'].isin(list_chosen_devices)]
-    df_line = df_filtered.groupby(['months', 'mobile_devices'])['visit_id'].sum().to_frame().reset_index()
+        if(d1 != None and d2 != None):
+            df_filtered = df2[df2["mobile_devices"].isin(d1) & df2["source"].isin(d2)]
+            
+        elif d1 != None:
+            df_filtered = df2[df2["mobile_devices"].isin(d1)]
+            
+        elif d2 != None:
+            df_filtered = df2[df2["source"].isin(d2)]
+            
+        else:
+            df_filtered = df2
+            
+        dataTable = [dt.DataTable(
+                id='table', 
+                columns = [{"name": i, "id": i} for i in df_filtered.columns],
+                data=df_filtered.to_dict('records'),
+                page_action='none',
+                style_table={'height': '500px', 'overflowY': 'auto'}
+            )]
+            
+        #list_chosen_devices=df_filtered['mobile_devices'].unique().tolist()
+        #df_line = df2[df2['mobile_devices'].isin(list_chosen_devices)]
+        df_line = df_filtered.groupby(['months', 'mobile_devices'])['visit_id'].sum().to_frame().reset_index()
     
-    fig = px.line(df_line, 
+        fig = px.line(df_line, 
                       x="months", 
                       y='visit_id', 
                       color='mobile_devices', 
                       height=600)
-    fig.update_layout(yaxis={'title':'visits'},
+        fig.update_layout(yaxis={'title':'visits'},
                       title={'text':'visits MoM',
                       'font':{'size':28},'x':0.5,'xanchor':'center'},
                      autosize=False, height=500,
@@ -267,10 +268,10 @@ def update_table(d1, d2):
     )
                      )
     
-    return dataTable, fig
+        return dataTable, fig
 
-if __name__ == '__main__':
-    app.run_server(debug=True, host = '127.0.0.1')
+#if __name__ == '__main__':
+#    app.run_server(debug=True, host = '127.0.0.1')
 
 
 # SINGLE PAGE TEMPLATE
