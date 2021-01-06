@@ -18,7 +18,7 @@ def create_app():
 
 
 def register_dashapps(app):
-    from app.single_page_app.layout import layout
+    from app.single_page_app import layout
     from app.single_page_app import register_callbacks
 
     # Meta tags for viewport responsiveness
