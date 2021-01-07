@@ -18,8 +18,9 @@ def create_app():
 
 
 def register_dashapps(app):
-    from app.single_page_app import layout
-    from app.single_page_app import register_callbacks
+    from single_page_app import *
+    #from app.single_page_app import layout
+    #from app.single_page_app import register_callbacks
 
     # Meta tags for viewport responsiveness
     meta_viewport = {"name": "viewport", "content": "width=device-width, initial-scale=1, shrink-to-fit=no"}
