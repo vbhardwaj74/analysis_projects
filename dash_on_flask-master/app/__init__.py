@@ -1,10 +1,15 @@
 import dash
+import dash_bootstrap_components as dbc
+import dash_core_components as dcc
+import dash_html_components as html
+
 from flask import Flask
 from flask.helpers import get_root_path
 from flask_login import login_required
-
+from flask_bootstrap import Bootstrap
+from flask_migrate import Migrate
+import dash_bootstrap_components as dbc
 from config import BaseConfig
-
 
 def create_app():
     server = Flask(__name__)
@@ -18,23 +23,23 @@ def create_app():
 
 
 def register_dashapps(app):
-    from single_page_app import *
-    #from app.single_page_app import layout
-    #from app.single_page_app import register_callbacks
+    #import app.dashapp1.single_page_app
+    from app.dashapp1.layout import layout
+    from app.dashapp1.callbacks import register_callbacks
 
     # Meta tags for viewport responsiveness
     meta_viewport = {"name": "viewport", "content": "width=device-width, initial-scale=1, shrink-to-fit=no"}
 
     dashapp1 = dash.Dash(__name__,
-                         external_stylesheets=[
-        'https://codepen.io/chriddyp/pen/bWLwgP.css'],
+                         external_stylesheets=['https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/solar/bootstrap.min.css'],
                          server=app,
-                         url_base_pathname='/dashboard/',
+                         url_base_pathname='/dash/',
                          assets_folder=get_root_path(__name__) + '/dashboard/assets/',
                          meta_tags=[meta_viewport])
+    Bootstrap(app)
 
     with app.app_context():
-        dashapp1.title = 'Dashapp 1'
+        dashapp1.title = 'Dashapp'
         dashapp1.layout = layout
         register_callbacks(dashapp1)
 

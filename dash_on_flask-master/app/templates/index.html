@@ -1,9 +1,211 @@
 {% extends "base.html" %}
 
 {% block content %}
+<style>
+body {
+  background-image: url(../static/landing_page_blank.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  }
+      .ohex1 {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      margin-top: -50px;
+      margin-left: -100px;
+      }
+      .ihex1 {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      margin-top: -95px;
+      margin-left: -199px;
+      }
+      .ohex2 {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      margin-top: -170px;
+      margin-left: -175px;
+      }
+      .ihex2 {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      margin-top: -215px;
+      margin-left: -274px;
+      }
+      .ohex3 {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      margin-top: 70px;
+      margin-left: -175px;
+      }
+      .ihex3 {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      margin-top: 25px;
+      margin-left: -274px;
+      }
+      .icon1 {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      margin-top: -125px;
+      margin-left: -125px;
+      }
+      .icon2 {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      margin-top: -5px;
+      margin-left: -50px;
+      }
+      .icon3 {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      margin-top: 115px;
+      margin-left: -125px;
+      }
+      .line1 {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      margin-top: -335px;
+      margin-left: -35px;
+      }
+      .line2 {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      margin-top: -213px;
+      margin-left: -494px;
+      }
+      .line3 {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      margin-top: -95px;
+      margin-left: -35px;
+      }
+  .title1 { font-family: Verdana, sans-serif;
+  font-weight: bold;
+  }
+  .p1 {
+  font-family: Arial, Helvetica, sans-serif;
+  }
+  .stem1 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -170px;
+  margin-left: 210px;
+  font-family: Trebuchet MS, sans-serif;
+  }
+  .disc1 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -130px;
+  margin-left: 200px;
+  font-family: Trebuchet MS, sans-serif;
+  }
+  .stem2 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -495px;
+  font-family: Trebuchet MS, sans-serif;
+  }
+  .disc2 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -10px;
+  margin-left: -480px;
+  font-family: Trebuchet MS, sans-serif;
+  }
+  .stem3 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: 70px;
+  margin-left: 150px;
+  font-family: Trebuchet MS, sans-serif;
+  }
+  .disc3 {
+  text-align: right;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: 110px;
+  margin-left: 120px;
+  font-family: Trebuchet MS, sans-serif;
+  }
+</style>
+</head>
 {% if current_user.is_anonymous %}
-  <h1>Hello, stranger!</h1>
+<body>
+<img src="../static/outer_hexagon.png" class="ohex1" style="transform:rotate(90deg);width:150px;height:140px;center">
+<img src="../static/light_hex.png" class="ihex1" style="width:340px;height:231px;center">
+<img src="../static/outer_hexagon.png" class="ohex2" style="transform:rotate(90deg);width:150px;height:140px;center">
+<img src="../static/light_hex.png" class="ihex2" style="width:340px;height:231px;center">
+<img src="../static/outer_hexagon.png" class="ohex3" style="transform:rotate(90deg);width:150px;height:140px;center">
+<img src="../static/light_hex.png" class="ihex3" style="width:340px;height:231px;center">
+<img src="../static/web-analysis.png" class="icon1" style="width:50px;height:50px;center">
+<img src="../static/3d-model.png" class="icon2" style="width:50px;height:50px;center">
+<img src="../static/settings.png" class="icon3" style="width:50px;height:50px;center">
+<img src="../static/hook.png" class="line1" style="width:400px;height:400px;center">
+<img src="../static/hook_left.png" class="line2" style="width:400px;height:400px;center">
+<img src="../static/hook.png" class="line3" style="width:400px;height:400px;center">
+  <h1 class="title1" style="text-align:center;color:white">COGENT DATA</h1>
+  <p class="p1" style="text-align:center;">The Smartest Risk Insights Platform for Eurodollar Options Made By Idiots</p>
+  <h4><a class="stem1" style="color:white" href="{{ url_for('main.home') }}">MAJOR FLOWS</a></h4>
+  <p class="disc1" style="color:white;right">Historical Data Flows
+    <br>Market Moving Trends</p>
+  <h4><a class="stem2" style="color:white" href="{{ url_for('main.home') }}">PAPER POSITIONS</a></h4>
+  <p class="disc2" style="color:white;">Largest Historical
+    <br>Paper Positions</p>
+  <h4><a class="stem3" style="color:white" href="{{ url_for('main.home') }}">LOCAL POSITIONING</a></h4>
+  <p class="disc3" style="color:white;">Trade Idea Generation
+<br>Estimated Open Interest Change
+<br>Transaction Cost Analysis
+</p>
+</body>
 {% else  %}
-  <h1>Hi, {{ current_user.username }}!</h1>
+<body>
+<img src="../static/outer_hexagon.png" class="ohex1" style="transform:rotate(90deg);width:150px;height:140px;center">
+<img src="../static/light_hex.png" class="ihex1" style="width:340px;height:231px;center">
+<img src="../static/outer_hexagon.png" class="ohex2" style="transform:rotate(90deg);width:150px;height:140px;center">
+<img src="../static/light_hex.png" class="ihex2" style="width:340px;height:231px;center">
+<img src="../static/outer_hexagon.png" class="ohex3" style="transform:rotate(90deg);width:150px;height:140px;center">
+<img src="../static/light_hex.png" class="ihex3" style="width:340px;height:231px;center">
+<img src="../static/web-analysis.png" class="icon1" style="width:50px;height:50px;center">
+<img src="../static/3d-model.png" class="icon2" style="width:50px;height:50px;center">
+<img src="../static/settings.png" class="icon3" style="width:50px;height:50px;center">
+<img src="../static/hook.png" class="line1" style="width:400px;height:400px;center">
+<img src="../static/hook_left.png" class="line2" style="width:400px;height:400px;center">
+<img src="../static/hook.png" class="line3" style="width:400px;height:400px;center">
+  <h1 class="title1" style="text-align:center;color:white">COGENT DATA</h1>
+  <p class="p1" style="text-align:center;">The Smartest Risk Insights Platform for Eurodollar Options Made By Idiots</p>
+  <h5 style="text-align:center;">Welcome, {{ current_user.username }}.</h5>
+  <h4><a class="stem1" style="color:white" href="{{ url_for('main.home') }}">MAJOR FLOWS</a></h4>
+  <p class="disc1" style="color:white;right">Historical Data Flows
+    <br>Market Moving Trends</p>
+  <h4><a class="stem2" style="color:white" href="{{ url_for('main.home') }}">PAPER POSITIONS</a></h4>
+  <p class="disc2" style="color:white;">Largest Historical
+    <br>Paper Positions</p>
+  <h4><a class="stem3" style="color:white" href="{{ url_for('main.home') }}">LOCAL POSITIONING</a></h4>
+  <p class="disc3" style="color:white;">Trade Idea Generation
+<br>Estimated Open Interest Change
+<br>Transaction Cost Analysis
+</p>
+</body>
 {% endif %}
 {% endblock %}
+

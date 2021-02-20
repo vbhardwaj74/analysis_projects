@@ -3,6 +3,8 @@ from alembic import context
 from sqlalchemy import engine_from_config, pool
 from logging.config import fileConfig
 import logging
+from flask_script import Manager
+from flask_migrate import Migrate, MigrateCommand
 
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.

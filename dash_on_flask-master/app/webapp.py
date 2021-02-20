@@ -19,7 +19,7 @@ server_bp = Blueprint('main', __name__)
 
 @server_bp.route('/')
 def index():
-    return render_template("index.html", title='Home Page')
+    return render_template("index.html", title='Home')
 
 
 @server_bp.route('/login/', methods=['GET', 'POST'])
@@ -66,3 +66,7 @@ def register():
         return redirect(url_for('main.login'))
 
     return render_template('register.html', title='Register', form=form)
+
+@server_bp.route('/solutions/')
+def home():
+    return render_template("home.html", title="dashboard")

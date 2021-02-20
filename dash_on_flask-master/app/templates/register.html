@@ -1,6 +1,14 @@
 {% extends "base.html" %}
 
 {% block content %}
+<style>
+body {
+  background-image: url(../static/landing_page_blank.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
     <h1>Register</h1>
     <form action="" method="post">
         {{ form.hidden_tag() }}

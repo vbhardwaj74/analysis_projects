@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+<style>
+  body {
+  background-image: url(../static/landing_page_blank.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  }
+</style>
+{% if current_user.is_anonymous %}
+  <h1>Please Login</h1>
+{% else  %}
+  <a href='/dash/' target='myIframe'>run</a>
+  <a href='/'>shut down</a><br /><br />
+  <iframe name='myIframe' width = '2000' height = '1000'></iframe>
+{% endif %}
+
+{% endblock %}
