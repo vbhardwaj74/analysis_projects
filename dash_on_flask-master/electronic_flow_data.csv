@@ -1,0 +1,90 @@
+Date,Time,CC,Description,Price,Qty,Watch,Impl. Vol,Type,Strategy,Sub Type,Side,Product,RFQ,Add Deal,Undrl. Bid,Undrl. Offer,Δ,Category
+8/17/2020,18:00:49,GE,Dec20 99.875/100.000 CS,0.5,50,,,Trade,CS,Trade,,Eurodollar Option,,,99.715,99.72,,Eurodollar and SOFR Options
+8/18/2020,16:56:04,GE,Dec21 99.500 Put,4,499,,29.06,Trade,Put,Trade,,Eurodollar Option,,,99.765,99.77,-0.21,Eurodollar and SOFR Options
+8/19/2020,16:48:23,GE2,Oct20 99.750/99.625/99.500 PTREE vs Eurodollar Future Dec22 99.730 +0.25d,2.5,131,,36.65,Trade,PTREE,Trade,,Eurodollar Option 2-Year MC,,,99.72,99.725,-0.05,Eurodollar and SOFR Options
+8/20/2020,16:48:10,GE2,Oct20 99.750/99.625/99.500 PTREE vs Eurodollar Future Dec22 99.730 +0.25d,2.5,69,,36.65,Trade,PTREE,Trade,,Eurodollar Option 2-Year MC,,,99.72,99.725,-0.05,Eurodollar and SOFR Options
+8/21/2020,16:47:53,GE2,Oct20 99.750/99.625/99.500 PTREE vs Eurodollar Future Dec22 99.730 +0.25d,2.5,50,,36.65,Trade,PTREE,Trade,,Eurodollar Option 2-Year MC,,,99.72,99.725,-0.05,Eurodollar and SOFR Options
+8/22/2020,16:45:20,GE2,Oct20 99.750/99.625/99.500 PTREE vs Eurodollar Future Dec22 99.730 +0.25d,2.5,250,,36.65,Trade,PTREE,Trade,,Eurodollar Option 2-Year MC,,,99.72,99.725,-0.05,Eurodollar and SOFR Options
+8/23/2020,16:32:38,GE,Jun21 99.500/99.750/100.000 CFLY,16,100,,,Trade,CFLY,Trade,,Eurodollar Option,,,99.8,99.805,,Eurodollar and SOFR Options
+8/24/2020,16:19:20,GE,Sep20 98.7500 Call,101.5,100,,,Trade,Call,Trade,,Eurodollar Option,,,99.765,99.77,,Eurodollar and SOFR Options
+8/25/2020,16:17:18,GE2,Sep20 99.625 Put vs Eurodollar Future Sep22 99.740 +0.10d,1,"2,000",,,Cross,Put,Cross,,Eurodollar Option 2-Year MC,,,,,,Eurodollar and SOFR Options
+8/26/2020,16:17:18,GE2,Sep20 99.625 Put vs Eurodollar Future Sep22 99.740 +0.10d,1,"2,000",,44.57,Trade,Put,Trade,,Eurodollar Option 2-Year MC,,,99.755,99.76,-0.06,Eurodollar and SOFR Options
+8/27/2020,16:07:45,GE,Jun21 99.625 Put,2,50,,21.83,Trade,Put,Trade,,Eurodollar Option,,,99.8,99.805,-0.19,Eurodollar and SOFR Options
+8/28/2020,16:07:12,GE,Jun21 99.625 Put,2,250,,21.83,Trade,Put,Trade,,Eurodollar Option,,,99.8,99.805,-0.19,Eurodollar and SOFR Options
+8/29/2020,16:06:19,GE,"+1 Sep21 99.125 P, +1 Dec21 98.750 P",2.5,"1,000",,,Trade,Custom,Trade,,Eurodollar Option,,,99.795,99.8,,Eurodollar and SOFR Options
+8/30/2020,16:03:44,GE,Dec20 99.625/99.750 STNGL,4.75,100,,,Trade,STNGL,Trade,,Eurodollar Option,,,99.715,99.72,,Eurodollar and SOFR Options
+8/31/2020,15:38:25,GE0,"+1 GE0 Dec20 99.500 C, -1 GE0 Dec20 99.625 C, -1 GE0 Dec20 100.000 C, +1 GE0 Dec20 100.125 C, +1 GE2 Dec20 99.375 C, -1 GE2 Dec20 99.500 C, -1 GE2 Dec20 100.000 C, +1 GE2 Dec20 100.125 C",22,300,,,Trade,Custom,Trade,,Eurodollar Option 1-Year MC,,,99.77,99.775,,Eurodollar and SOFR Options
+9/1/2020,15:32:47,GE,Dec20 99.500/99.000 PS 1x4,0,25,,,Trade,PS 1x4,Trade,,Eurodollar Option,,,99.715,99.72,,Eurodollar and SOFR Options
+9/2/2020,15:27:56,GE,Dec20 99.500/99.000 PS 1x4,0,25,,,Trade,PS 1x4,Trade,,Eurodollar Option,,,99.715,99.72,,Eurodollar and SOFR Options
+9/3/2020,15:27:42,GE,Dec20 99.500/99.000 PS 1x4,0,25,,,Trade,PS 1x4,Trade,,Eurodollar Option,,,99.715,99.72,,Eurodollar and SOFR Options
+9/4/2020,15:01:49,GE,Dec22 98.500 Put,4,38,,60.67,Trade,Put,Trade,,Eurodollar Option,,,99.725,99.73,-0.09,Eurodollar and SOFR Options
+9/5/2020,15:01:40,GE,Dec22 98.500 Put,4,163,,60.67,Trade,Put,Trade,,Eurodollar Option,,,99.725,99.73,-0.09,Eurodollar and SOFR Options
+9/6/2020,14:53:03,GE,Dec21 99.500/100.000 STNGL,9.5,50,,,Trade,STNGL,Trade,,Eurodollar Option,,,99.77,99.775,,Eurodollar and SOFR Options
+9/7/2020,14:49:09,GE,"+1 Mar22 99.375 C, +1 Dec21 99.375 C, +1 Mar22 100.125 C, +1 Dec21 100.125 C, -2 Mar22 99.750 C, -2 Dec21 99.750 C",45.5,150,,,Trade,Custom,Trade,,Eurodollar Option,,,99.785,99.79,,Eurodollar and SOFR Options
+9/8/2020,14:42:16,GE,Jun22 99.750/99.625/99.500/99.375 PCONDR,3,"1,556",,,Trade,PCONDR,Trade,,Eurodollar Option,,,99.77,99.775,,Eurodollar and SOFR Options
+9/9/2020,14:42:09,GE,Jun22 99.750/99.625/99.500/99.375 PCONDR,3,944,,,Trade,PCONDR,Trade,,Eurodollar Option,,,99.77,99.775,,Eurodollar and SOFR Options
+9/10/2020,14:42:06,GE,Jun22 99.750/99.625/99.500/99.375 PCONDR,3,"2,500",,,Trade,PCONDR,Trade,,Eurodollar Option,,,99.77,99.775,,Eurodollar and SOFR Options
+9/11/2020,14:41:54,GE,Jun22 99.750/99.625/99.500/99.375 PCONDR,3,"2,750",,,Trade,PCONDR,Trade,,Eurodollar Option,,,99.77,99.775,,Eurodollar and SOFR Options
+9/12/2020,14:41:38,GE,Jun22 99.750/99.625/99.500/99.375 PCONDR,3,"1,458",,,Trade,PCONDR,Trade,,Eurodollar Option,,,99.77,99.775,,Eurodollar and SOFR Options
+9/13/2020,14:41:31,GE,Jun22 99.750/99.625/99.500/99.375 PCONDR,3,542,,,Trade,PCONDR,Trade,,Eurodollar Option,,,99.77,99.775,,Eurodollar and SOFR Options
+9/14/2020,14:02:31,GE0,Sep20 99.750 Put,1,230,,26.24,Trade,Put,Trade,,Eurodollar Option 1-Year MC,,,99.795,99.8,-0.25,Eurodollar and SOFR Options
+9/15/2020,14:02:27,GE0,Sep20 99.750 Put,1,600,,26.24,Trade,Put,Trade,,Eurodollar Option 1-Year MC,,,99.795,99.8,-0.25,Eurodollar and SOFR Options
+9/16/2020,14:02:14,GE0,Sep20 99.750 Put,1,250,,26.24,Trade,Put,Trade,,Eurodollar Option 1-Year MC,,,99.795,99.8,-0.25,Eurodollar and SOFR Options
+9/17/2020,14:01:54,GE0,Sep20 99.750 Put,1,420,,26.24,Trade,Put,Trade,,Eurodollar Option 1-Year MC,,,99.795,99.8,-0.25,Eurodollar and SOFR Options
+9/18/2020,14:01:40,GE0,Sep20 99.750 Put,1,"1,000",,26.24,Trade,Put,Trade,,Eurodollar Option 1-Year MC,,,99.795,99.8,-0.25,Eurodollar and SOFR Options
+9/19/2020,14:01:04,GE0,Sep20 99.375 Put vs Eurodollar Future Sep21 99.785 +0.05d,0.25,"1,500",,82.91,Trade,Put,Trade,,Eurodollar Option 1-Year MC,,,99.795,99.8,0.02,Eurodollar and SOFR Options
+9/20/2020,13:07:09,GE,Nov20 99.625 Put,1.25,80,,22.53,Trade,Put,Trade,,Eurodollar Option,,,99.715,99.72,-0.2,Eurodollar and SOFR Options
+9/21/2020,11:59:59,GE3,Sep20 99.500/99.750 STNGL,2.5,300,,,Trade,STNGL,Trade,,Eurodollar Option 3-Year MC,,,99.65,99.655,,Eurodollar and SOFR Options
+9/22/2020,11:49:07,GE3,Sep20 99.500/99.750 STNGL,2.5,200,,,Trade,STNGL,Trade,,Eurodollar Option 3-Year MC,,,99.65,99.655,,Eurodollar and SOFR Options
+9/23/2020,11:45:44,GE3,Oct20 99.625/99.375 PS 2x3 vs Eurodollar Future Dec23 99.585 +0.67d,11.5,100,,98.29,Trade,PS 2x3,Trade,,Eurodollar Option 3-Year MC,,,99.595,99.605,0.55,Eurodollar and SOFR Options
+9/24/2020,11:45:36,GE,Dec21 98.250/98.125 PDOUBLE,1,100,,,Trade,PDOUBLE,Trade,,Eurodollar Option,,,99.77,99.775,,Eurodollar and SOFR Options
+9/25/2020,11:45:17,GE,Dec21 98.250/98.125 PDOUBLE,1,67,,,Trade,PDOUBLE,Trade,,Eurodollar Option,,,99.77,99.775,,Eurodollar and SOFR Options
+9/26/2020,11:45:17,GE,Jun21 99.625 Put,2,100,,21.82,Trade,Put,Trade,,Eurodollar Option,,,99.8,99.805,-0.19,Eurodollar and SOFR Options
+9/27/2020,11:45:17,GE0,Dec20 100.000/99.500 RR vs Eurodollar Future Dec21 99.770 -0.22d,0.5,433,,29.68,Trade,RR,Trade,,Eurodollar Option 1-Year MC,,,99.77,99.775,-0.08,Eurodollar and SOFR Options
+9/28/2020,11:44:54,GE,Sep21 99.750 STRD,17,67,,20.1,Trade,STRD,Trade,,Eurodollar Option,,,99.795,99.8,0.18,Eurodollar and SOFR Options
+9/29/2020,11:44:49,GE,Sep21 99.750 STRD,17,140,,20.1,Trade,STRD,Trade,,Eurodollar Option,,,99.795,99.8,0.18,Eurodollar and SOFR Options
+9/30/2020,11:44:44,GE,Sep20 99.7500/99.6250 PS 1x3,0,130,,,Trade,PS 1x3,Trade,,Eurodollar Option,,,99.765,99.7675,,Eurodollar and SOFR Options
+10/1/2020,11:44:43,GE,Sep20 99.7500/100.0000/100.2500 CFLY,2.5,10,,,Trade,CFLY,Trade,,Eurodollar Option,,,99.765,99.7675,,Eurodollar and SOFR Options
+10/2/2020,11:44:41,GE,Dec21 98.250/98.125 PDOUBLE,1,320,,,Trade,PDOUBLE,Trade,,Eurodollar Option,,,99.77,99.775,,Eurodollar and SOFR Options
+10/3/2020,11:44:41,GE,Sep21 99.750 STRD,17,15,,20.1,Trade,STRD,Trade,,Eurodollar Option,,,99.795,99.8,0.18,Eurodollar and SOFR Options
+10/4/2020,11:44:41,GE2,Dec20 99.750/99.625/99.500 PTREE,1.5,500,,,Trade,PTREE,Trade,,Eurodollar Option 2-Year MC,,,99.725,99.73,,Eurodollar and SOFR Options
+10/5/2020,11:42:46,GE3,Oct20 99.625/99.375 PS 2x3 vs Eurodollar Future Dec23 99.585 +0.67d,11.5,147,,98.29,Trade,PS 2x3,Trade,,Eurodollar Option 3-Year MC,,,99.595,99.6,0.55,Eurodollar and SOFR Options
+10/6/2020,11:37:01,GE,Sep20 99.7500 Call,2.5,500,,14.13,Trade,Call,Trade,,Eurodollar Option,,,99.765,99.7675,0.66,Eurodollar and SOFR Options
+10/7/2020,11:31:51,GE2,"Oct20 +1 99.125 P, -2 99.250 P, +1 99.500 P vs Eurodollar Future Dec22 99.705 +0.08d",1,500,,72.16,Trade,Custom,Trade,,Eurodollar Option 2-Year MC,,,99.725,99.73,0.04,Eurodollar and SOFR Options
+10/8/2020,11:21:21,GE3,Sep20 99.500 Put,1.5,250,,60.22,Trade,Put,Trade,,Eurodollar Option 3-Year MC,,,99.645,99.65,-0.18,Eurodollar and SOFR Options
+10/9/2020,11:20:29,GE,Sep20 99.7500 STRD,3.5,400,,14.74,Trade,STRD,Trade,,Eurodollar Option,,,99.765,99.7675,0.31,Eurodollar and SOFR Options
+10/10/2020,11:20:06,GE,Sep20 99.7500 STRD,3.5,35,,14.74,Trade,STRD,Trade,,Eurodollar Option,,,99.765,99.7675,0.31,Eurodollar and SOFR Options
+10/11/2020,11:20:02,GE,Sep20 99.7500 STRD,3.5,65,,14.74,Trade,STRD,Trade,,Eurodollar Option,,,99.765,99.7675,0.31,Eurodollar and SOFR Options
+10/12/2020,11:19:43,GE,Sep20 99.7500 STRD,3.5,35,,14.74,Trade,STRD,Trade,,Eurodollar Option,,,99.765,99.7675,0.31,Eurodollar and SOFR Options
+10/13/2020,11:19:35,GE2,Dec20 99.375/99.500/100.000/100.125 CCONDR vs Eurodollar Future Dec22 99.735 -0.10d,11,500,,,Trade,CCONDR,Trade,,Eurodollar Option 2-Year MC,,,99.725,99.73,,Eurodollar and SOFR Options
+10/14/2020,11:19:28,GE,Sep20 99.7500 STRD,3.5,214,,14.74,Trade,STRD,Trade,,Eurodollar Option,,,99.765,99.7675,0.31,Eurodollar and SOFR Options
+10/15/2020,11:19:07,GE3,Sep20 99.500 Put,1.5,"1,000",,60.22,Trade,Put,Trade,,Eurodollar Option 3-Year MC,,,99.645,99.65,-0.18,Eurodollar and SOFR Options
+10/16/2020,11:18:54,GE,Sep20 99.7500 STRD,3.5,101,,14.74,Trade,STRD,Trade,,Eurodollar Option,,,99.765,99.7675,0.31,Eurodollar and SOFR Options
+10/17/2020,11:18:52,GE2,Oct20 99.500/99.125 PS,1,500,,,Trade,PS,Trade,,Eurodollar Option 2-Year MC,,,99.725,99.73,,Eurodollar and SOFR Options
+10/18/2020,11:18:51,GE,Sep20 99.7500 STRD,3.5,150,,14.74,Trade,STRD,Trade,,Eurodollar Option,,,99.765,99.7675,0.31,Eurodollar and SOFR Options
+10/19/2020,11:18:35,GE,Sep20 99.7500 STRD,3.5,400,,14.74,Trade,STRD,Trade,,Eurodollar Option,,,99.765,99.7675,0.31,Eurodollar and SOFR Options
+10/20/2020,11:18:32,GE,Sep20 99.7500 STRD,3.5,100,,14.74,Trade,STRD,Trade,,Eurodollar Option,,,99.765,99.7675,0.31,Eurodollar and SOFR Options
+10/21/2020,11:18:00,GE,Sep20 99.7500 STRD,3.5,250,,14.74,Trade,STRD,Trade,,Eurodollar Option,,,99.765,99.7675,0.31,Eurodollar and SOFR Options
+10/22/2020,11:17:53,GE,Sep20 99.7500 STRD,3.5,50,,15.09,Trade,STRD,Trade,,Eurodollar Option,,,99.7625,99.765,0.26,Eurodollar and SOFR Options
+10/23/2020,11:17:36,GE,Sep20 99.7500 STRD,3.5,100,,15.09,Trade,STRD,Trade,,Eurodollar Option,,,99.7625,99.765,0.26,Eurodollar and SOFR Options
+10/24/2020,11:17:32,GE,Sep20 99.7500 STRD,3.5,500,,15.09,Trade,STRD,Trade,,Eurodollar Option,,,99.7625,99.765,0.26,Eurodollar and SOFR Options
+10/25/2020,11:17:13,GE,Sep20 99.7500 STRD,3.5,63,,14.74,Trade,STRD,Trade,,Eurodollar Option,,,99.765,99.7675,0.31,Eurodollar and SOFR Options
+10/26/2020,11:17:08,GE,Sep20 99.7500 STRD,3.5,37,,14.74,Trade,STRD,Trade,,Eurodollar Option,,,99.765,99.7675,0.31,Eurodollar and SOFR Options
+10/27/2020,11:16:49,GE,Sep20 99.7500 STRD,3.5,463,,15.09,Trade,STRD,Trade,,Eurodollar Option,,,99.7625,99.765,0.26,Eurodollar and SOFR Options
+10/28/2020,11:15:28,GE,Dec20 99.125 Call,59,50,,52.98,Trade,Call,Trade,,Eurodollar Option,,,99.71,99.715,0.97,Eurodollar and SOFR Options
+10/29/2020,11:08:44,GE,Oct20/Jan21 99.750 STRD SPRD,3,150,,,Trade,STRD SPRD,Trade,,Eurodollar Option,,,99.79,99.795,,Eurodollar and SOFR Options
+10/30/2020,11:02:59,GE0,Oct20 99.750/99.875 CS 1x2 vs Eurodollar Future Dec21 99.775 -0.32d,2.5,500,,26.57,Trade,CS 1x2,Trade,,Eurodollar Option 1-Year MC,,,99.77,99.775,0.15,Eurodollar and SOFR Options
+10/31/2020,11:02:23,GE0,Oct20 99.750/99.875 CS 1x2 vs Eurodollar Future Dec21 99.775 -0.32d,2.5,500,,26.57,Trade,CS 1x2,Trade,,Eurodollar Option 1-Year MC,,,99.765,99.775,0.15,Eurodollar and SOFR Options
+11/1/2020,11:01:05,GE0,Dec20 99.750/100.000 CS 1x2 vs Eurodollar Future Dec21 99.765 -0.35d,3,500,,35.7,Trade,CS 1x2,Trade,,Eurodollar Option 1-Year MC,,,99.765,99.77,-0.13,Eurodollar and SOFR Options
+11/2/2020,10:59:38,GE,Sep20 99.7500 STRD,3.5,35,,15.08,Trade,STRD,Trade,,Eurodollar Option,,,99.7625,99.765,0.26,Eurodollar and SOFR Options
+11/3/2020,10:52:19,GE,Dec20 99.750 Call,3,150,,20.38,Trade,Call,Trade,,Eurodollar Option,,,99.71,99.715,0.37,Eurodollar and SOFR Options
+11/4/2020,10:41:56,GE,Sep20 99.7500 STRD,3.5,98,,15.08,Trade,STRD,Trade,,Eurodollar Option,,,99.7625,99.765,0.26,Eurodollar and SOFR Options
+11/5/2020,10:41:50,GE,Sep20 99.7500 STRD,3.5,100,,15.08,Trade,STRD,Trade,,Eurodollar Option,,,99.7625,99.765,0.26,Eurodollar and SOFR Options
+11/6/2020,10:41:47,GE,Sep20 99.7500 STRD,3.5,302,,15.08,Trade,STRD,Trade,,Eurodollar Option,,,99.7625,99.765,0.26,Eurodollar and SOFR Options
+11/7/2020,10:41:37,GE,Sep20 99.7500 STRD,3.5,99,,15.08,Trade,STRD,Trade,,Eurodollar Option,,,99.7625,99.765,0.26,Eurodollar and SOFR Options
+11/8/2020,10:41:33,GE,Sep20 99.7500 STRD,3.5,101,,15.08,Trade,STRD,Trade,,Eurodollar Option,,,99.7625,99.765,0.26,Eurodollar and SOFR Options
+11/9/2020,10:41:26,GE,Sep20 99.7500 STRD,3.5,100,,15.08,Trade,STRD,Trade,,Eurodollar Option,,,99.7625,99.765,0.26,Eurodollar and SOFR Options
+11/10/2020,10:41:14,GE,Sep20 99.7500 STRD,3.5,100,,15.08,Trade,STRD,Trade,,Eurodollar Option,,,99.7625,99.765,0.26,Eurodollar and SOFR Options
+11/11/2020,10:40:45,GE0,Sep20 99.875 STRD,9.5,100,,32.89,Trade,STRD,Trade,,Eurodollar Option 1-Year MC,,,99.795,99.8,-0.63,Eurodollar and SOFR Options
+11/12/2020,10:40:32,GE3,Sep20 99.625 STRD,10,300,,47.18,Trade,STRD,Trade,,Eurodollar Option 3-Year MC,,,99.64,99.645,0.11,Eurodollar and SOFR Options
+11/13/2020,10:40:20,GE3,Sep20 99.625 STRD,10,200,,47.18,Trade,STRD,Trade,,Eurodollar Option 3-Year MC,,,99.64,99.645,0.11,Eurodollar and SOFR Options

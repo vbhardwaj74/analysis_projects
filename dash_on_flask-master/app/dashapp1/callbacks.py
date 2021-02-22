@@ -13,7 +13,7 @@ from tkinter import messagebox
 
 dir_path = Path(os.path.dirname(os.path.realpath(__file__)))
 
-electronic_data = pd.read_csv(r"/Volumes/GoogleDrive/Shared drives/MediSprout/data/cogent_flow_data/electronic_data.csv")
+electronic_data = pd.read_csv(r"/Users/visualboardwalk/github/minsanity_projects/dash_on_flask-master/electronic_flow_data.csv")
 
 df = electronic_data
 df = df.replace(',','', regex=True)
